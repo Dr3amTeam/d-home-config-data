@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${MYSQL_REGISTER_AXON_JDBC_USER}
+    url: ${MYSQL_REGISTER_AXON_JDBC_URL}
+    password: ${MYSQL_REGISTER_AXON_JDBC_PASSWORD}
+  jpa:
+    generate-ddl: 'true'
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+server:
+  port: '8022'
+axon:
+  axonserver:
+    servers: localhost
+  eventhandling:
+    processors:
+      userDni:
+        mode: subscribing
