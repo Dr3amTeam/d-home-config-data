@@ -76,3 +76,10 @@ management:
       exposure:
         include: "*"
 
+axon:
+  axonserver:
+    servers: localhost
+  eventhandling:
+    processors:
+      customer:
+        mode: subscribing
