@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bdee389-718e-4c96-8332-0fd71517dceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/register-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/register-service.yml" afterDir="false" />
-    </list>
+    <list default="true" id="1bdee389-718e-4c96-8332-0fd71517dceb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +21,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GATEWAY SERVICE/d-home-gateway-service2" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -46,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635309604372</updated>
       <workItem from="1635309606936" duration="3548000" />
+      <workItem from="1635329610046" duration="508000" />
     </task>
     <servers />
   </component>

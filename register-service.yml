@@ -80,5 +80,5 @@ axon:
     servers: localhost
   eventhandling: 
     processors:
-      customerId:
+      customer:
       mode: subscribing
