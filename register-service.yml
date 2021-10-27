@@ -79,6 +79,6 @@ axon:
   axonserver:
     servers: localhost
   eventhandling: 
-    processors:
-      customer:
+    processors[customer]:
       mode: subscribing
+      source: eventBus
