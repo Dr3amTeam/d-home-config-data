@@ -81,4 +81,3 @@ axon:
   eventhandling: 
     processors[customer]:
       mode: subscribing
-      source: eventBus
