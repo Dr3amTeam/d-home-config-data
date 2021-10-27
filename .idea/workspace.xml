@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdee389-718e-4c96-8332-0fd71517dceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/d-home-gateway-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/register-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GATEWAY SERVICE/d-home-gateway-service2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -47,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635309604372</updated>
-      <workItem from="1635309606936" duration="687000" />
+      <workItem from="1635309606936" duration="2879000" />
     </task>
     <servers />
   </component>
