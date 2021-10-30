@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdee389-718e-4c96-8332-0fd71517dceb" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/specialty.service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d-home-gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/d-home-gateway-service.yml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 99d5fe22a353388aac9924e58b7e9d8fadf1d558
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GATEWAY SERVICE/d-home-gateway-service2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> 99d5fe22a353388aac9924e58b7e9d8fadf1d558
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -50,8 +59,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635309604372</updated>
+<<<<<<< HEAD
       <workItem from="1635309606936" duration="4684000" />
       <workItem from="1635622074396" duration="449000" />
+=======
+      <workItem from="1635309606936" duration="3548000" />
+      <workItem from="1635329610046" duration="2590000" />
+      <workItem from="1635359027720" duration="4912000" />
+>>>>>>> 99d5fe22a353388aac9924e58b7e9d8fadf1d558
     </task>
     <servers />
   </component>

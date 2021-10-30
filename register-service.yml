@@ -53,6 +53,7 @@ spring:
   # JPA / HIBERNATE
   # ===============================
   jpa:
+    generate-ddl: true
     show-sql: true
     hibernate:
       ddl-auto: update
@@ -74,3 +75,11 @@ management:
     web:
       exposure:
         include: "*"
+
+axon:
+  axonserver:
+    servers: localhost
+  eventhandling:
+    processors:
+      customer:
+        mode: subscribing
