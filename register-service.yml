@@ -17,8 +17,6 @@ spring:
     generate-ddl: 'true'
     hibernate:
       ddl-auto: update
-  application:
-    name: register-service
 eureka:
   client:
     service-url:
