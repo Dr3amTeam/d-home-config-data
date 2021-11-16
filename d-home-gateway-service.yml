@@ -12,8 +12,9 @@ spring:
       discovery:
         locator:
           enabled: true
-#      routes:
-#        - id: register-service
-#          uri: lb://register-service
-#          predicates:
-#            - Path=/register/**
+      routes:
+        - id: RegisterMicroservice
+          uri: lb://registermicroservice
+          predicates:
+            - Path=/customers/**
+            - Path=/employees/**
