@@ -13,8 +13,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: RegisterMicroservice
-          uri: lb://registermicroservice
+        - id: register-service
+          uri: lb://register-service
           predicates:
             - Path=/customers/**
             - Path=/employees/**
