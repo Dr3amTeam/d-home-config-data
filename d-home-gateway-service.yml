@@ -16,5 +16,4 @@ spring:
         - id: register-service
           uri: lb://register-service
           predicates:
-            - Path=/customers/**
-            - Path=/employees/**
+            - Path=/**
