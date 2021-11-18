@@ -1,3 +1,5 @@
+server:
+  port: 8080
 
 eureka:
   client:
@@ -11,16 +13,16 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: gateway-service
-          uri: https://gateway-service.mybluemix.net
+        - id: register-service
+          uri: lb://register-service
           predicates:
             - Path=/customers/**,/employees/**
         - id: payment-service
-          uri: https://gateway-service.mybluemix.net
+          uri: lb://payment-service
           predicates:
             - Path=/payments/**
         - id: appointment-service
-          uri: https://gateway-service.mybluemix.net
+          uri: lb://appointment-service
           predicates:
             - Path=/appointments/**
 
