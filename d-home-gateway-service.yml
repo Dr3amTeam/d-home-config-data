@@ -17,3 +17,13 @@ spring:
           uri: lb://register-service
           predicates:
             - Path=/customers/**,/employees/**
+        - id: payment-service
+          uri: lb://payment-service
+          predicates:
+            - Path=/payments/**
+        - id: appointment-service
+          uri: lb://appointment-service
+          predicates:
+            - Path=/appointments/**
+
+

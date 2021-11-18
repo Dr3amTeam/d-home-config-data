@@ -1,0 +1,30 @@
+axon:
+  eventhandling:
+    processors:
+      customer:
+        mode: subscribing
+      employee:
+        mode: subscribing
+  axonserver:
+    servers: ec2-3-16-10-131.us-east-2.compute.amazonaws.com
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: admin
+    url: jdbc:mysql://mysql8.c9otvjja9zpz.us-east-2.rds.amazonaws.com:3306/payment-inventory?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+    password: kl3k0KisKQ7RtlvlK8jH
+  jpa:
+    generate-ddl: 'true'
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-service.mybluemix.net/eureka/
+server:
+  port: '8084'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
