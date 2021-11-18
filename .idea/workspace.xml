@@ -22,6 +22,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -50,6 +51,7 @@
       <workItem from="1635622074396" duration="449000" />
       <workItem from="1637083225356" duration="1053000" />
       <workItem from="1637116974141" duration="37000" />
+      <workItem from="1637210185822" duration="328000" />
     </task>
     <servers />
   </component>
