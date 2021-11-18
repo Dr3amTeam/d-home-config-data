@@ -11,8 +11,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
-    url: jdbc:mysql://mysql8.cklvhm3suvxs.us-east-2.rds.amazonaws.com:3306/registration-inventory?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
-    password: jMgsxXponHwh3pxfCUnJ
+    url: jdbc:mysql://mysql8.c9otvjja9zpz.us-east-2.rds.amazonaws.com:3306/registration-inventory?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+    password: kl3k0KisKQ7RtlvlK8jH
   jpa:
     generate-ddl: 'true'
     hibernate:
@@ -20,6 +20,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://eureka-service.mybluemix.net/
 server:
   port: '8082'
