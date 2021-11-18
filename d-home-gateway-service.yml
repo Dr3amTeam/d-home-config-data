@@ -11,7 +11,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: register-service
+        - id: gateway-service.mybluemix.net
           uri: https://gateway-service.mybluemix.net
           predicates:
             - Path=/customers/**,/employees/**
