@@ -6,7 +6,7 @@ axon:
       employee:
         mode: subscribing
   axonserver:
-    servers: http://ec2-3-144-76-111.us-east-2.compute.amazonaws.com
+    servers: ec2-3-144-76-111.us-east-2.compute.amazonaws.com
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
