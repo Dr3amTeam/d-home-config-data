@@ -12,15 +12,15 @@ spring:
           enabled: true
       routes:
         - id: register-service
-          uri: lb://register-service
+          uri: https://gateway-service.mybluemix.net
           predicates:
             - Path=/customers/**,/employees/**
         - id: payment-service
-          uri: lb://payment-service
+          uri: https://gateway-service.mybluemix.net
           predicates:
             - Path=/payments/**
         - id: appointment-service
-          uri: lb://appointment-service
+          uri: https://gateway-service.mybluemix.net
           predicates:
             - Path=/appointments/**
 
