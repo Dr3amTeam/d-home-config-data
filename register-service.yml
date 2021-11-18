@@ -20,6 +20,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: https://eureka-service.mybluemix.net/
+      defaultZone: http://eureka-service.mybluemix.net/eureka/
 server:
   port: '8082'
