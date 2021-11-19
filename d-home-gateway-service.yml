@@ -2,6 +2,8 @@ server:
   port: 8080
 
 eureka:
+  instance:
+    hostname: eureka-service.mybluemix.net
   client:
     serviceUrl:
       defaultZone: https://eureka-service.mybluemix.net/eureka/
