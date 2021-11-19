@@ -16,11 +16,9 @@ spring:
           enabled: true
       routes:
         - id: register-service
-          uri: http://localhost:8082/
+          uri: http://register-service.mybluemix.net
           predicates:
             - Path=/customers/**,/employees/**
-          filters:
-            - RewritePath=/register-service/(?<segment>.*), /$\{segment}
         - id: payment-service
           uri: lb://payment-service
           predicates:
