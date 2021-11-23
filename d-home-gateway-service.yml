@@ -5,8 +5,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-service.mybluemix.net/eureka
-    registerWithEureka: false
-    fetchRegistry: false
+    register-with-eureka: false
+    fetch-registry: false
 
 spring:
   cloud:
@@ -15,8 +15,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: register-service
-          uri: lb://register-service
+       -  id: REGISTER-SERVICE
+          uri: lb://REGISTER-SERVICE
           predicates:
             - Path=/customers/**,/employees/**
 
