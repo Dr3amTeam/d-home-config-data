@@ -16,16 +16,9 @@ spring:
           enabled: true
       routes:
         - id: register-service
-          uri: http://register-service.mybluemix.net
+          uri: http://register-service.mybluemix.net/
           predicates:
             - Path=/customers/**,/employees/**
-        - id: payment-service
-          uri: lb://payment-service
-          predicates:
-            - Path=/payments/**
-        - id: appointment-service
-          uri: lb://appointment-service
-          predicates:
-            - Path=/appointments/**
+
 
 
