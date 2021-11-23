@@ -20,7 +20,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-service.mybluemix.net/eureka/
+      defaultZone: https://eureka-service.mybluemix.net/eureka/
 server:
   port: '8084'
 management:
