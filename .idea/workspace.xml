@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdee389-718e-4c96-8332-0fd71517dceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/register-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,8 @@
       <workItem from="1637263062870" duration="6347000" />
       <workItem from="1637274513117" duration="2282000" />
       <workItem from="1637280676942" duration="7892000" />
-      <workItem from="1637384319359" duration="740000" />
+      <workItem from="1637384319359" duration="925000" />
+      <workItem from="1637626836925" duration="394000" />
     </task>
     <servers />
   </component>
