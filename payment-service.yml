@@ -1,9 +1,7 @@
 axon:
   eventhandling:
     processors:
-      customer:
-        mode: subscribing
-      employee:
+      payment:
         mode: subscribing
   axonserver:
     servers: ec2-3-144-231-252.us-east-2.compute.amazonaws.com

@@ -1,7 +1,9 @@
 axon:
   eventhandling:
     processors:
-      appointment:
+      post:
+        mode: subscribing
+      comment:
         mode: subscribing
   axonserver:
     servers: ec2-3-144-231-252.us-east-2.compute.amazonaws.com
@@ -9,7 +11,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
-    url: jdbc:mysql://mysql8.c9otvjja9zpz.us-east-2.rds.amazonaws.com:3306/appointment-inventory?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://mysql8.c9otvjja9zpz.us-east-2.rds.amazonaws.com:3306/social-network-inventory?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
     password: kl3k0KisKQ7RtlvlK8jH
   jpa:
     generate-ddl: 'true'
@@ -18,9 +20,11 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-service.mybluemix.net/eureka/
+      defaultZone: http://eureka-service.mybluemix.net/eureka
+    registerWithEureka: false
+    fetchRegistry: dalse
 server:
-  port: '8085'
+  port: '8082'
 management:
   endpoints:
     web:
