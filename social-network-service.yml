@@ -21,8 +21,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-service.mybluemix.net/eureka
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
 server:
   port: '8086'
 management:
