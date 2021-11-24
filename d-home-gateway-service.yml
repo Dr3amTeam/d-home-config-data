@@ -19,18 +19,18 @@ spring:
           uri: https://register-service.mybluemix.net
           predicates:
             - Path=/customers/**,/employees/**
-       - id: APPOINTMENT-SERVICE
-           uri: https://appointment-service.mybluemix.net
-           predicates:
-             - Path=/appointments/**
-       - id: PAYMENT-SERVICE
-           uri: https://payment-service.mybluemix.net
-           predicates:
-             - Path=/payments/**
-       - id: SOCIAL-NETWORK-SERVICE
-           uri: https://social-network-service.mybluemix.net
-           predicates:
-             - Path=/comments/**,/posts/**,/reviews/**
+       -  id: APPOINTMENT-SERVICE
+          uri: https://appointment-service.mybluemix.net
+          predicates:
+            - Path=/appointments/**
+       -  id: PAYMENT-SERVICE
+          uri: https://payment-service.mybluemix.net
+          predicates:
+            - Path=/payments/**
+       -  id: SOCIAL-NETWORK-SERVICE
+          uri: https://social-network-service.mybluemix.net
+          predicates:
+            - Path=/comments/**,/posts/**
 
 
 
